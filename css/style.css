@@ -82,3 +82,10 @@ blockquote {
     display: block;
     max-width: 100%;
 }
+
+@media (min-width: 768px) {
+    section {
+        max-width: 42em;
+        margin-left: 10vw;
+    }
+}
