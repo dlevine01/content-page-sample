@@ -1,0 +1,84 @@
+style.css
+
+body{
+    font-size: 100%;
+}
+
+h1, h2, h3, h4, p, ul, blockquote {
+    font-family: 'Lato',sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    font-size: 7vw;
+}
+
+h2, h3, h4 {
+    color: #444;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 2.5em;
+    border-bottom: 1px solid #444;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.7em;
+}
+
+p, ul{
+    color: #222;
+    font-size: 1.4em;
+    line-height: 1.6em;
+}
+
+h2, h3 {
+    position: sticky;
+    top:0;
+    background-color: #fff;
+}
+
+blockquote {
+    font-family: 'Lato',sans-serif;
+    display: block;
+    border-left: 1px solid #999;
+    padding-left : 1.5em;
+    margin-left: 0;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+
+.background-img {
+    position: fixed;
+    top:0;
+    left: 0;
+    max-height: 75vh;
+    z-index: -99;
+    
+}
+
+.title {
+    color: white;
+    margin-top: -2em;
+}
+
+.container {
+    position:absolute;
+    left:0;
+    right:0;
+    margin-top: 75vh;
+    background-color: #fff;
+    padding: 2em;
+}
+
+.block-img {
+    display: block;
+    max-width: 100%;
+}
