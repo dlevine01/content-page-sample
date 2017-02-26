@@ -33,8 +33,12 @@ h4 {
 
 p, ul{
     color: #222;
-    font-size: 1.4em;
+    font-size: 1.3em;
     line-height: 1.6em;
+}
+
+ul{
+    padding-left: 2em;
 }
 
 h2, h3 {
@@ -84,8 +88,27 @@ blockquote {
 }
 
 @media (min-width: 768px) {
-    section {
-        max-width: 42em;
+    p, ul, blockquote{
         margin-left: 10vw;
     }
+    
+    p{
+        max-width: 30em;
+    }
+    
+    ul {
+        max-width: 28em;
+    }
+    
+    blockquote{
+        max-width: 24.5em;
+
+    }
+    .block-img{
+        float: right;
+        min-width: 200px;
+        max-width: 40%;
+        padding: 1em 0 1em 1em;
+    }
+    
 }
